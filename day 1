@@ -1,0 +1,12 @@
+package codingiscday1;
+
+
+public class CodingISCday1 {
+
+        public static void main(String[] args) {
+        //pengimputan//
+        String nama = "rian";
+            System.out.println("nama saya = "+nama);
+    }
+    
+}

@@ -1,0 +1,28 @@
+package codingiscday2;
+
+
+public class CodingISCday2 {
+
+    public static void main(String[] args) {
+        //day 2 tipe data primitif
+        //penyusun codingan adalah rian
+        byte u = 100;
+        short q = 11;
+        int s = 22;
+        long y = 9237;
+        float x = 089521678908f;
+        double a = 12.5;
+        char w = 'L';
+        boolean saya_nt_mass = true;
+        System.out.println(u);
+        System.out.println(q);
+        System.out.println(s);
+        System.out.println(y);
+        System.out.println(x);
+        System.out.println(a);
+        System.out.println(w);
+        System.out.println(saya_nt_mass);
+        
+    }
+    
+}

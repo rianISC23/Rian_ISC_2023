@@ -1,0 +1,29 @@
+package iscday3;
+
+import java.util.Scanner;
+
+public class ISCday3 {
+
+        public static void main(String[] args) {
+            String n = "rian";
+            int i = 12;
+            char u = 'L';
+            byte p = 56;
+            short o = 9;
+            float y = 178.9f;
+            long t = 2000000;
+            double g = 985.9;
+            boolean tidak_ada_uang = true;
+            
+            System.out.println("nama saya = "+n);
+            System.out.println("umur saya adalah = "+u);
+            System.out.println("penandaan jenis kelamin pria = "+u);
+            System.out.println("berat badan saya adalah"+p);
+            System.out.println("nomor itu berisikan angka = "+o);
+            System.out.println("tinggi badan saya adalah sekitar = "+y);
+            System.out.println("saya memiliki penghasilan = "+t);
+            System.out.println("sebuah jelanan memiliki panjang sekitar = "+g);
+            System.out.println(" saya tidak punya uang :"+tidak_ada_uang);
+    }       
+    
+}

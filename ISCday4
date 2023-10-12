@@ -1,0 +1,26 @@
+package iscday4;
+
+public class ISCday4 {
+
+    public static void main(String[] args) {
+        int t;
+        String o;
+        char g;
+        float h;
+        double p;
+        boolean saya_rajin_menabung;
+        t = 12;
+        o = "rian";
+        g = 'h';
+        h = 123.7f;
+        p = 1222.5;
+        saya_rajin_menabung = true;
+        System.out.println(t);        
+        System.out.println(o);        
+        System.out.println(g);        
+        System.out.println(h);        
+        System.out.println(p);        
+        System.out.println(saya_rajin_menabung);        
+    }
+
+}

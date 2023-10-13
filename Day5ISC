@@ -1,0 +1,22 @@
+package javaapplicationday5_rian;
+
+public class JavaApplicationDay5_rian {
+    
+    public static void main(String[] args) {
+     
+        int nilaiDua;
+        int nilaiTiga = 80;
+        int hasilPenjumblahan;
+        /* mengisi variabel */
+        nilaiSatu = 40;
+        hasilPenjumblahan = nilaiDua+nilaiTiga;
+        // panggil dan cetak
+        System.out.println("Nilai dua = "+ nilaiDua );
+        System.out.println("nilai tiga = "+ nilaiTiga );
+        System.out.println("nilai 2 + nilai 3 = "+hasilPenjumblahan);
+        System.out.println("nilai 2 - nilai 3 = "+ (nilaiDua-nilaiTiga));
+        
+        
+        
+    }
+    

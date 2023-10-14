@@ -1,0 +1,28 @@
+package iscday6;
+
+public class ISCday6 {
+
+        public static void main(String[] args) {
+        int r;
+        float o;
+        double p;
+        String l;
+        char i;
+        boolean saya_suka_makan_sate;
+        
+        r = 12;
+        o = 11f;
+        p = 12.9;
+        l = "rian";
+        i = 'p';
+        saya_suka_makan_sate = true; 
+        
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+    }
+    
+}

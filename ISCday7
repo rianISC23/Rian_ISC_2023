@@ -1,0 +1,21 @@
+package iscday7;
+
+public class ISCday7 {
+
+        public static void main(String[] args) {
+            // nama rian aritmatika
+        double a, b, c, d, e;
+        a = 12;
+        b = 34;
+        c = 67;
+        d = 17;
+        e = 55;
+        
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+            System.out.println(d);
+            System.out.println(e);
+    }
+    
+}

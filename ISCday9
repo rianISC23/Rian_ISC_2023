@@ -1,0 +1,28 @@
+package iscday9;
+
+public class ISCday9 {
+
+        public static void main(String[] args) {
+            // nama pembuat rian
+        int w = 18;
+            System.out.println("jika w = 18");
+            
+            //perbandingan ==
+            System.out.println("keterangan w ==18 ="+(w == 18));
+            
+            //perbandingan !=
+            System.out.println("keterangan w !=18="+(w  != 18));
+            
+            //perbandingan >=
+            System.out.println("keterangan w >=25="+(w >=25));
+            
+            //perbandingan >
+            System.out.println("keterangan w >9="+(w >9));
+            
+            //perbandingan <=
+            System.out.println("keterangan w <=9="+(w <=9));
+            
+            //perbandingan <
+            System.out.println("keterangan w <45="+(w <45));
+    }
+    

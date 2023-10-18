@@ -1,0 +1,23 @@
+public class Main {
+    
+    public static void main(String[] args) {
+//atas nama rian
+        boolean tamat = false;   //tidak !
+        boolean hasil = tamat;
+        System.out.println("lulus = " + !tamat);
+        
+        boolean lulus_cepat = true;   // And &&
+        boolean lulus_tepat_Waktu = true;
+        System.out.print("Berprestasi = ");
+        System.out.println(lulus_cepat && lulus_tepat_Waktu);
+        
+        boolean lulus_cevat = true;    // Or ||
+        boolean mahasiswa_donatur = false;
+        System.out.print("Lulus cepat & cumlaude = ");
+        System.out.println(lulus_cevat || mahasiswa_donatur);
+        
+        
+    
+        
+    }
+    

@@ -1,0 +1,15 @@
+public class Main {
+    
+    public static void main(String[] args) {
+// atas nama rian
+        double jumlah = 200000;
+        System.out.println("Belanja = Rp" + jumlah);
+        if (total >= 200000) {
+            System.out.println("Anda dapat diskon 10%");
+            double diskon = 20*jumlah / 100;
+            jumlah -= diskon;
+        }
+        System.out.print("total harga = Rp" + jumlah);
+    }
+    
+}

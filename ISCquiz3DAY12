@@ -1,0 +1,32 @@
+package rian;
+
+import java.util.Scanner;
+
+public class RIAN {
+
+     public static void main(String[] args) {
+        Scanner rian = new Scanner (System.in);
+        int m,n;
+        
+        System.out.print("Masukan Nilai M : ");
+        m= rian.nextInt();
+        System.out.print("Masukan Nilai N : ");
+        n = rian.nextInt();
+    
+        if(m<=n){
+            int total=0;
+            for(int a =m+1;a<n;a++){
+                total +=a;
+            System.out.println(a);
+            if(a<n-1){
+                System.out.println("+");
+       
+            }
+        }
+       System.out.println("="+total);
+     }
+    }
+    
+}
+
+

@@ -1,0 +1,38 @@
+package rianiscday13;
+
+import java.util.Scanner;
+
+public class RianISCday13 {
+
+    public static void main(String[] args) {
+        //atas nama rian
+        //percabangan day 13 ISC
+        Scanner rian = new Scanner(System.in);
+        System.out.print("masukkan penghasilan = ");
+        double gaji_semuanya;
+        double penghasilan = rian.nextDouble();
+
+        if (penghasilan < 3000000) {
+            gaji_semuanya = penghasilan;
+            System.out.println("tidak di kenakan pajak");
+            System.out.print("jadi gaji bersih adalah = Rp " + (gaji_semuanya = penghasilan));
+            
+        }else if (penghasilan >= 5000000){
+            gaji_semuanya = penghasilan - (penghasilan* 0.25);
+            System.out.println("dikenakan pajak sebesar 25%");
+            System.out.print("jadi gaji bersihnya adalah = Rp "+(gaji_semuanya = penghasilan - (penghasilan* 0.25)));
+            
+        }else if (penghasilan >=3000000 && penghasilan < 5000000){
+            gaji_semuanya = penghasilan - (penghasilan* 0.07);
+            System.out.println("dikenakan pajak sebesar 7% ");
+            System.out.print("jadi gaji bersihnya adalah = Rp = "+ (gaji_semuanya = penghasilan - (penghasilan* 0.075)));
+            
+                    
+                    }
+             {
+                        
+                    }
+        }
+    }
+
+

@@ -1,0 +1,35 @@
+package iscday14rianquizz;
+
+import java.util.Scanner;
+
+public class ISCday14RIANquizz {
+
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan Kalimat: ");
+        
+        String kalimat = input.nextLine();
+        String kalimatModifikasi = "";
+        
+        for (int a = 0; a < kalimat.length(); a++){
+            char huruf = kalimat.charAt(a);
+            
+            if (huruf == 'a'){
+                kalimatModifikasi += "apa";
+            }else if (huruf == 'i'){
+                kalimatModifikasi += "iya";
+            }else if (huruf == 'u'){
+                kalimatModifikasi += "upq";
+            }else if (huruf == 'e'){
+                kalimatModifikasi += "epe";
+            }else if (huruf == 'o'){
+                kalimatModifikasi += "opo";
+                
+            }
+        }  
+        System.out.println("kalimat asli : " + kalimat);
+        System.out.println("kalimat modifikasi: " + kalimatModifikasi);
+
+    }
+    
+}

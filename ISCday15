@@ -1,0 +1,25 @@
+package iscday15;
+
+import java.util.Scanner;
+
+
+public class ISCday15 {
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner (System.in);
+       int a,b,c,d;
+        System.out.print("gaji pokok = ");
+        a = masuk.nextInt();
+        b = 55000;
+        System.out.print("lama lembur = ");
+        c = masuk.nextInt();
+        b *= c;
+        d = a + b;
+        System.out.println("total gaji bersih = " + d);
+        
+       
+        
+        
+    }
+    
+}

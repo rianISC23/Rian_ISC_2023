@@ -1,0 +1,24 @@
+package rianday16quiz;
+
+public class RianDay16Quiz {
+
+        public static void main(String[] args) {
+      int total = 600000;
+            System.out.println("Belanja = RP. "+ total);
+      if(total >= 600000){
+          System.out.println("dapat diskon 10%");
+          double promo = 10 * total / 100;
+          total -= promo;
+          
+      }   else {
+          System.out.println("tidak dapat diskon ");
+      }    
+       
+            System.out.println("Akhir = "+total);
+      
+            
+      
+      
+        
+    }
+    

@@ -1,0 +1,35 @@
+package iscday17quizzeuy;
+
+import java.util.Scanner;
+
+
+public class ISCday17quizzeuy {
+
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner (System.in);
+        int harga_permeter , harga_jual , panjang_tanah , luas_tanah , lebar_tanah;
+        System.out.print("masukkan panjang tanah\t:");
+        panjang_tanah = masuk.nextInt();
+        System.out.print("masukkan lebar tanah\t: ");
+        lebar_tanah = masuk.nextInt();
+        luas_tanah = lebar_tanah * panjang_tanah;
+        System.out.print("luas tanah adalah\t: " + luas_tanah+ " m² \n");
+        harga_permeter = 300000;
+        harga_jual = harga_permeter * luas_tanah;
+        System.out.println("harga jualnya\t\t:"+harga_permeter);
+        if (harga_jual < 50000000){
+            System.out.println("\nharga dari tanah anda di  dikenakan pajak sebesar 1% tidak ada penawaran");
+            System.out.println("\njadi harga bersih dari penjualah tanah anda adalah = Rp "+(harga_jual -(harga_jual* 0.01)));
+        } else if (harga_jual > 100000000){
+            System.out.println("\nharga dari tanah anda di  dikenakan pajak sebesar 5% tidak ada penawaran");
+            System.out.println("\njadi harga bersih dari penjualan tanah anda adalah = Rp"+(harga_jual - (harga_jual* 0.05)));
+        } else if (harga_jual > 50000000 && harga_jual <100000000){
+            System.out.println("\nharga dari tanah anda di  dikenakan pajak sebesar 3% tidak ada penawaran");
+            System.out.println("\nharga bersih dari penjualan tanah anda adalah = Rp "+(harga_jual - (harga_jual* 0.03)));
+        }
+        
+
+    }
+    
+}

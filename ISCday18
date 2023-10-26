@@ -1,0 +1,32 @@
+package rianday18quiz;
+import java.util.Scanner;
+public class RianDay18Quiz {
+
+        public static void main(String[] args) {
+            Scanner masuk = new Scanner(System.in);
+            System.out.println("total = ");
+      double totalll = masuk.nextDouble();
+            System.out.println("Belanja = RP. "+ totalll);
+      if(totalll >= 800000){
+          System.out.println("dapat diskon 20%");
+          double diskon = 20 * totalll / 100;
+          totalll -= diskon;
+          
+      }   else if (totalll >= 600000) {
+           System.out.println("dapat diskon 15%");
+          double diskon = 15 * totalll / 100;
+          totalll -= diskon;
+          
+      }   else if (totalll >= 600000) {
+           System.out.println("dapat diskon 10%");
+          double diskon = 10 * totalll / 100;
+          totalll -= diskon;
+          
+      }    
+      else {    
+                System.out.println("ndak ada diskonnya ");
+            
+        
+    }
+    System.out.println("Akhir = Rp. "+ totalll);
+}

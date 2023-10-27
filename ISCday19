@@ -1,0 +1,22 @@
+package day_19;
+import java.util.Scanner;
+public class Day_19 {
+
+    public static void main(String[] args) {
+        //menjumlah cicilan bulanan tanpa di kenakan bunga
+        Scanner rian = new Scanner(System.in);
+        
+        System.err.print("masukkan jumlah pinjaman:");
+        double jumlah_Pinjaman = rian.nextDouble();
+        
+        System.err.print("masukkan jangka waktu pinjaman:");
+        int jangka_Waktu_Pinjaman = rian.nextInt();
+        
+        double cicilan_Bulanan = jumlah_Pinjaman / jangka_Waktu_Pinjaman;
+        
+        System.err.println("jumlah pinjaman:" + jumlah_Pinjaman);
+        System.err.println("jangka waktu pinjaman: " + jangka_Waktu_Pinjaman);
+        System.err.println("cicilan bulanann: " + cicilan_Bulanan);
+    }
+    
+}

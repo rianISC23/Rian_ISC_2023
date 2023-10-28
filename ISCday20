@@ -1,0 +1,29 @@
+package rian;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("orang terganteng anda \t ");
+        System.out.println("1.irfan");
+        System.out.println("2.saya(rian)");
+        System.out.println("3.qifa");
+        System.out.println("4.reza");
+        System.out.print("pilih salah satunya :");
+        int jl=input.nextInt();
+        switch(jl){
+            case 1:
+            System.out.println("maaf anda keliru");
+            break;
+            case 2:
+            System.out.println("anda tepat sekali ");
+            break;
+            case 3:
+            System.out.println("kurang tepat");
+            break;
+            case 4:
+            System.out.println("sedikit lagi");
+            break;
+        }
+    }
+    
+}

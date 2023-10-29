@@ -1,0 +1,26 @@
+package rianday21;
+
+import java.util.Scanner;
+
+public class RIANday21 {
+
+        public static void main(String[] args) {
+            Scanner masuk = new Scanner (System.in);
+            String user = "rian";
+            int pasword = 12345;
+            System.out.println("\tMASUKKAN NAMA USER :\t");
+            user = masuk.nextLine();
+            System.out.println("\tMASUKKAN PASWORD :\t");
+            pasword = masuk.nextInt();
+            String sistem = "user==pasword";
+            sistem = masuk.nextLine();
+            if (sistem==sistem){
+                System.out.println("selamat datang"+sistem);
+            }else{
+                System.out.println("login gagal");
+            
+                
+            }
+    }
+    
+}

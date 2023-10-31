@@ -1,0 +1,46 @@
+package rianday23;
+
+import java.util.Scanner;
+
+public class RIANday23 {
+
+         public static void main(String[] args) {
+             Scanner masuk =  new Scanner (System.in);
+             String k = null;
+             int pilihan,harga=0,porsi=0;
+             System.out.println("=====MENU MAKANAN=====");
+             System.out.println("1.nasi goreng\n2.nasi campur\n3.nasi ayam\n4.nasi kuning\n");
+             System.out.println("\npesanan\t");
+             pilihan = masuk.nextInt();
+             if (pilihan==1){
+                 k  = "nasi goreng";
+                 harga = 12000;
+             }else if (pilihan==2){
+                 k = "nasi campur";
+                 harga = 13000;
+             }else if (pilihan==3){
+                 k = "nasi ayam";
+                 harga = 14000;
+             }else if (pilihan==4){
+                 k = "nasi kuning";
+                 harga = 15000;
+             }
+             if (k==null){
+                 System.out.println("orderan tidak dapat di render");
+             }else{
+                 System.out.println("jumlah pesanan\t");
+                 porsi = masuk.nextInt();
+                 System.out.println("==================================");
+                 System.out.println("yang di pesan\t");
+                 System.out.println(k+"/piring"+"Rp"+harga);
+                 harga = harga*porsi;
+                 System.out.println("Total harga Rp\t:"+harga);
+                 System.out.println("==================================");
+                 System.out.println("SELAMAT MENIKMATI HIDANGANNYA MASS");
+             }
+                     
+             
+             
+    }
+    
+}

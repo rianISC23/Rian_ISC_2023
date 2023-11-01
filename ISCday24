@@ -1,0 +1,36 @@
+package belajarpenugasan;
+
+public class BelajarPenugasan {
+
+    public static void main(String[] args) {
+        int angka1 = 15;
+                // Operator assignment dalam penjumlahan
+                angka1 += 9;
+                System.out.println("Nilai dari angka1 = " + angka1);
+                
+        int angka2 = 35;
+                // Operator assignment dalam pengurangan
+                angka2 -= 20;
+                System.out.println("Nilai dari angka2 = " + angka2);
+                
+        int angka3 = 6;
+                // Operator assignment dalam perkalian
+                angka3 *= 9;
+                System.out.println("Nilai dari angka3 = " + angka3);
+                
+        int angka4 = 80;
+                // Operator assignment dalam pembagian
+                angka4 /= 4;
+                System.out.println("Nilai dari angka4 = " + angka4);
+                
+        int angka5 = 21;
+                // Operator assignment dalam sisa bagi/modulus
+                angka5 %= 5;
+                System.out.println("Nilai dari angka5 = " + angka5);
+                
+     
+        
+      }
+       
+    }
+    

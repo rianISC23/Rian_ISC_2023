@@ -1,0 +1,38 @@
+
+package rianday25;
+
+import java.util.Scanner;
+
+
+public class RIANday25 {
+
+
+    public static void main(String[] args) {
+        System.out.print("MASUKKAN PESANAN ANDA :\t");
+        Scanner rian = new Scanner (System.in);
+        String k;
+        k = rian.nextLine();
+        System.out.print("pilihan : \n1.nasi putih\n2.nasi kuning\n3.nasi hijau\n4.nasi merah"+"\n5.mbaknya\n\nMASUKKAN PESANAN :\t");
+        int p;
+        p = rian.nextInt();
+        switch(p){
+            case 1:
+                System.out.print("\n"+k+"memilih nasi pitih");
+                break;
+            case 2:
+                System.out.print("\n"+k+"memilih nasi kuning");
+                break;
+            case 3:
+                System.out.print("\n"+k+"memilih nasi hijau");
+                break;
+            case 4:
+                System.out.print("\n"+k+"memilih nasi merah");
+                break;
+            case 5:
+                System.out.print("\n"+k+"memilih mbaknya");
+                break;
+        }
+        
+    }
+    
+}

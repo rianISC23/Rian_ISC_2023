@@ -1,0 +1,24 @@
+package iscday26;
+
+import java.util.Scanner;
+
+public class ISCday26 {
+
+        public static void  main(String[] args) {
+          Scanner y = new Scanner (System.in);
+            System.out.println("\tMASUKKAN PASWORD YANG BENAR\t");
+            String p = "apa itu goggle";
+            int s = 55555;
+            System.out.print("MASUKKAN NAMA USER GOGGLE ANDA :\t");
+            p = y.nextLine();
+            System.out.print("MASUKKAN PIN ANDA :\t ");
+            s = y.nextInt();
+            if (p.equalsIgnoreCase("apa itu goggle") && s == 55555){
+                System.out.println(""
+                        + "\tSELAMAT LOGIN ANDA BERHASIL\t");
+            }else{
+                System.out.println("\tSILAHKAN DI COBA KEMBALI\t");
+            }
+    }
+    
+}

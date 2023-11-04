@@ -1,0 +1,26 @@
+package rianiscwhile;
+
+import java.util.Scanner;
+
+public class RianISCwhile {
+
+        public static void main(String[] args) {
+            Scanner rian =  new Scanner (System.in);
+            System.out.println("\tBILANGAN GENAP\t");
+            int awalan,akhiran;
+            System.out.print("MASUKKAN AWALAN = ");
+            awalan = rian.nextInt();
+            System.out.print("MASUKKAN AKHIRAN = ");
+            akhiran = rian.nextInt();
+        int a = awalan;
+        while(a<=akhiran){
+            int total = a % 2;
+            if(total==0){
+                System.out.println(a+" ");
+            }
+            a++;
+        }
+            System.out.println("");
+    }
+    
+}

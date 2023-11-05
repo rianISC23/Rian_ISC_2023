@@ -1,0 +1,25 @@
+package riannnday28;
+
+import java.util.Scanner;
+
+public class Riannnday28 {
+
+        public static void main(String[] args) {
+            Scanner rian = new Scanner (System.in);
+            int angka,pangkat,hasil;
+            System.out.println("MASUKKAN ANGKA TERSERAH");
+            System.out.print("masukkan angka   : ");
+            angka = rian.nextInt();
+            System.out.print("masukkan pangkat : ");
+            pangkat = rian.nextInt();
+            System.out.println("=========================");
+            System.out.print("hasil          :");
+            hasil = angka;
+            for (int i = 1; i < pangkat; i++) {
+                hasil *= angka;
+                
+            }
+            System.out.println(hasil);
+    }
+    
+}

@@ -1,0 +1,30 @@
+package rianday29;
+
+import java.util.Scanner;
+
+public class RianDAY29 {
+
+        public static void main(String[] args) {
+            Scanner rian = new Scanner (System.in);
+           int nilai = rian.nextInt();
+            String predikatt = null;
+            if (nilai>100){
+                predikatt = "nilai sempurna";
+            }else if (nilai >=85){
+                predikatt = "sangat baikk";
+                
+            }else if (nilai>=70){
+                predikatt = "cukup baikk";
+            } else if (nilai >= 60){
+                predikatt = "baikk";
+            }else if (nilai<60){
+            predikatt = "kurangg";
+                System.out.println("nilai\t\t= "+nilai);
+                System.out.println("predikatt \t= "+predikatt);
+            }
+            
+        }
+
+        }
+    
+

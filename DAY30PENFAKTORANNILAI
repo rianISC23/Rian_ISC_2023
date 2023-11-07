@@ -1,0 +1,26 @@
+package day30rian;
+
+import java.util.Scanner;
+
+public class DAY30rian {
+
+  public static void main(String[] args) {
+      Scanner rian = new Scanner (System.in);
+      int angka;
+      System.out.print("MASUKKAN NILAI ANDA\t =");
+      angka = rian.nextInt();
+      if (angka >= 85 && angka <=100){
+          System.out.println("A");   
+      }else if (angka >= 70 && angka < 84){
+          System.out.println("B");
+      }else if (angka >= 60 && angka <69){
+          System.out.println("C");
+      }else if (angka >= 45 && angka <59){
+          System.out.println("D");
+      }else if (angka >= 0 && angka <44){
+          System.out.println("ERROR");
+      }
+      
+  }
+    
+}

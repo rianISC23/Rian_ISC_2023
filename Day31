@@ -1,0 +1,24 @@
+package Java;
+import java.io.*;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        BufferedReader dataIn = new BufferedReader(
+        																			new InputStreamReader(System.in));
+        String rian = " ";
+        System.out.print(" Masukkan namamu :");
+        try{
+            rian = dataIn.readLine();
+        }catch (IOException e){
+            System.out.println(" eror "+ e);
+        }
+        
+        System.out.println(" Selamat datang "+rian);
+        
+        
+        
+        
+    }
+    
+}

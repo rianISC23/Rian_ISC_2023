@@ -1,0 +1,28 @@
+package day32rian;
+
+import java.util.Scanner;
+
+public class Day32rian {
+
+        public static void main(String[] args) {
+            Scanner rian = new Scanner (System.in);
+            int awal , akhir;
+            System.out.println("\tMASUKKAN ANGKA GANJIL\t");
+            System.out.print("MASUKKAN AWALAN  : ");
+            awal = rian.nextInt();
+            System.out.print("MASUKKAN AKHIRAN : ");
+            akhir = rian.nextInt();
+            int b = awal;
+            while (b <= akhir){
+                int hasil = b % 2;
+                if (hasil == 1){
+                    System.out.print(b+" ");
+                }
+                    b++;
+                    
+                }
+            System.out.println(" ");
+            }
+        }
+
+

@@ -1,0 +1,27 @@
+package day1_ngoding;
+
+import java.util.Scanner;
+
+public class Day32_ngoding {
+    /*
+    DERET FIBONACCI
+    */
+    public static void main(String[] args) {
+        Scanner rian = new Scanner(System.in);
+        System.out.println("~~~~~DERET FIBONACCI~~~~~");
+        int b1 = 0;
+        int b2 = 1;
+        System.out.print("Masukkan jumlah angka : ");
+        int angka  = rian.nextInt();
+        int bn;
+        System.out.print(b1 + ", ");
+        System.out.print(b2);
+        for (int i = 1; i < angka; i++) {
+            bn = b2 + b1;
+            System.out.print(" ," + bn);
+            b1 = b2;
+            b2 = bn;
+        }
+        System.out.println();
+    }
+}

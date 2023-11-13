@@ -1,0 +1,22 @@
+package rianday36;
+
+import java.util.Scanner;
+
+public class RIANday36 {
+
+        public static void main(String[] args) {
+         Scanner rian = new Scanner (System.in);
+         int awal,akhir;
+            System.out.print("MASUKKAN AWALAN  : ");
+            awal = rian.nextInt();
+            System.out.print("MASUKKAN AKHIRAN : ");
+            akhir = rian.nextInt();
+            int d = awal;
+            do {
+                System.out.println(d+" ");
+                d++;
+                
+            }while(d <= akhir);
+            
+            }
+    }

@@ -1,0 +1,28 @@
+package riancoding;
+
+import java.util.Scanner;
+
+public class Riancoding {
+
+    public static void main(String[] args) {
+        Scanner masuk =  new Scanner (System.in);
+        double harga;
+        System.out.println("masukkan harga baju = ");
+        double total = masuk.nextInt();
+        harga = total;
+        if (total < 60000 ){
+            harga = total - (total * 0.05);
+            System.out.println("di kenakan diskon sebesar 5%");
+            System.out.println(" jadi harga totaklnya adalah Rp = " + (harga = total - (total * 0.05)));
+        }else if (total > 200000){
+            harga = total - (total * 0.06);
+            System.out.println("di kenakan diskon sebesar 6%");
+            System.out.println("jadi harga total nya adalah Rp = " + (harga = total - (total * 0.06)));
+        }else if (total >= 60000 && total < 200000 ){
+            harga = total - (total * 0.09);
+            System.out.println("dekenakan diskon sebesar 9%");
+            System.out.println("jadi total harga nya adalah Rp = " + (harga =  total - (total * 0.06)));
+        }
+    }
+    
+}

@@ -1,0 +1,10 @@
+package day39aray;
+
+public class Day39aray {
+
+    public static void main(String[] args) {
+int [] angka = {1 ,3 ,5 ,6, 7};
+        System.out.println(angka [3]);
+    }
+    
+}

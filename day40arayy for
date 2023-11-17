@@ -1,0 +1,17 @@
+package day40arrayperulangan;
+
+public class Day40arrayperulangan {
+
+    public static void main(String[] args) {
+int [] rian = {1, 2, 6, 9, 5, 8, 0,};
+int sembarang = rian.length;
+        for (int a = 0; a < sembarang; a++) {
+            System.out.print(rian[a]+" ");
+            
+            
+        }
+        System.out.println("");
+    }
+    
+    
+}

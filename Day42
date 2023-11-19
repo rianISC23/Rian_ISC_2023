@@ -1,0 +1,19 @@
+package day42;
+
+public class Day42 {
+
+    public static void main(String[] args) {
+    int [] angka = {2, 7, 8, 9,};
+    int jumlah = angka.length;
+    int total = 0;
+    double rata;
+        for (int i = 0; i < jumlah; i++) {
+            total += angka[i];
+            
+            
+        }
+        rata = total/jumlah;
+        System.out.println(rata);
+        }
+    
+        }

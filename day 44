@@ -1,0 +1,20 @@
+package rianday43;
+
+public class RIANday43 {
+
+    public static void main(String[] args) {
+        System.out.println("JADI RATA-RATANYA ADALAH ");
+int [] o = {2, 4, 7, 9, 10};
+double rata;
+int total = 0;
+int jumlah = o.length;
+        for (int a = 0; a < jumlah; a++) {
+            total += o[a];
+            
+            
+        }
+        rata = total/jumlah;
+        System.out.println(rata);
+    }
+    
+}

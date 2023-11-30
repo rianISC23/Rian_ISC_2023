@@ -1,0 +1,14 @@
+package javaapplication52;
+
+public class JavaApplication52 {
+
+    public static void main(String[] args) {
+ String [] rian = {"rian", "sukri", "gedry", "adrian"};
+ int jumlah = rian.length;
+ int a = 0;
+        for (int i = 0; i < jumlah; i++) {
+            System.out.println(rian[i]);
+        }
+    
+    }
+}

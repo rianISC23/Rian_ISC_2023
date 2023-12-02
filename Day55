@@ -1,0 +1,25 @@
+package javaapplication53;
+
+import java.util.Scanner;
+
+public class JavaApplication53 {
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner (System.in);
+        System.out.println("=============================");
+        System.out.println("INPUT:");
+        int jumlah_indek = 4;
+        int [] a = new int[jumlah_indek];
+        for (int i = 0; i < jumlah_indek; i++) {
+            System.out.print("Indek ke"+i+": ");
+            a[i] = masuk.nextInt();
+        }
+        System.out.println("=============================");
+        System.out.println("OUPUT :");
+        for (int i = 0; i < jumlah_indek; i++) {
+            System.out.print(" "+a[i]+" ");
+        }
+        System.out.println("");
+    }
+    
+}

@@ -1,0 +1,13 @@
+package javaapplication55;
+
+public class JavaApplication55 {
+
+    public static void main(String[] args) {
+int [] b = {3, 5, 6, 7, 7};
+for (int a : b){
+    System.out.println(a);
+    
+}
+    }
+    
+}

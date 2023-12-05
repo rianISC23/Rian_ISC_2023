@@ -1,0 +1,13 @@
+package javaapplication58;
+
+public class JavaApplication58 {
+
+    public static void main(String[] args) {
+int [] b = {9, 5, 6, 0, 3};
+for (int a : b){
+    System.out.println(a);
+    
+}
+    }
+    
+}

@@ -1,0 +1,19 @@
+package javaapplication63;
+
+public class JavaApplication63 {
+
+    public static void main(String[] args) {
+String [][] a = {
+    {"wira","12344"},
+    {"rian", "84920"}
+    
+};
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                System.out.println(a[i][j]);
+            }
+            
+        }
+    }
+    
+}

@@ -1,0 +1,19 @@
+package day60;
+
+public class Day60 {
+
+    public static void main(String[] args) {
+    int [] angkaa = {5, 3, 9, 3};
+    int jumlak = angkaa.length;
+    int totall = 0;
+    double rataa;
+        for (int i = 0; i < jumlak; i++) {
+            totall += angkaa[i];
+            
+            
+        }
+        rataa = totall/jumlak;
+        System.out.println(rataa);
+        }
+    
+        }

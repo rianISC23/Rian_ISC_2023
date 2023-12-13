@@ -1,0 +1,15 @@
+package rianisc;
+
+public class RianISC {
+
+    public static void main(String[] args) {
+  String  [] u = {"abdul","monyet","manusia","kambing"};
+int jumlah = u.length;
+int b = 0;
+do{
+    System.out.println(u[b]);
+    b++;
+}while (b < jumlah);
+    }
+    
+}

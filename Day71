@@ -1,0 +1,16 @@
+package com.mycompany.mavenproject9;
+
+public class Mavenproject9 {
+
+    public static void main(String[] args) {
+
+        int[] abc = {34, 8, 4, 9, 10, 11};
+        int a = 0;
+        int jumlah = abc.length;
+        for (int i = 0; i < jumlah; i++) {
+            a += abc[i];   
+            
+        }
+        System.out.println(a+" ");
+    }
+}

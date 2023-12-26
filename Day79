@@ -1,0 +1,26 @@
+package com.mycompany.mavenproject15;
+
+public class Mavenproject15 {
+
+    public static void main(String[] args) {
+        int[] rian = {23, 56, 11, 98, 90, 33, 45};
+        int jumlah_indeks = rian.length;
+        int max = rian[0], min = rian[0];
+        System.out.print("DERET ANGKA = ");
+        for (int i = 0; i < rian.length; i++) {
+            System.out.print(rian[i] + " ");
+
+            if (rian[i] > max) {
+                max = rian[i];
+
+            }
+            if (rian[i] < min) {
+                min = rian[i];
+            }
+
+        }
+        System.out.println(" ");
+        System.out.println("Nilai max = " + max);
+        System.out.println("Nilai min = " + min);
+    }
+}

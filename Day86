@@ -1,0 +1,29 @@
+package com.mycompany.mavenproject11;
+
+public class Mavenproject11 {
+    //prosedur
+    public static void rian(){
+        String a = "jefri";
+        int b = 18;
+        String c = "Campalagian";
+        int d  = 7;
+        System.out.println("Nama\t= "+a);
+        System.out.println("Umur\t=  "+b);
+        System.out.println("Saya berasal dari\t= "+c);
+        System.out.println("Saya mulai masuk sekolah pada umur\t="+d);
+        System.out.println("=========================================================");
+    }
+    //fungsi
+    public static String tiaa(){
+        String a = "aliii";
+        int b = 19;
+        String c = "Mamasa";
+        int d  = 6;
+        return "nama = "+a+"\n"+"umur ="+b+"\n"+"saya berasal dari = "+c+"\n"+"saya mulai sekolah pada umur = "+d;
+    }
+
+    public static void main(String[] args) {
+rian();
+        System.out.println(tiaa());
+    }
+}
